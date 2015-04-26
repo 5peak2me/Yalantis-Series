@@ -9,8 +9,8 @@ I like the animation in that project...so I decided to make a project collection
 
 ..as you see right now,wish you like it.
 
-..if you have any question, you can 
+..if you have any question, you can call me by QQ:461260911
 
 ## Also U can get Demo from here
 
-[Download Demo](https://github.com/5peak2me/Yalantis-Series/blob/master/demo/demo.apk)
+[Download Demo](https://raw.githubusercontent.com/5peak2me/Yalantis-Series/master/demo/demo.apk)
