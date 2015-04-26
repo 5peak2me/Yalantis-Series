@@ -1,0 +1,1 @@
+include ':app',':library_flipviewpager',':library_phoenix',':library_taurus',':library_slde_menu',':library_context_menu',':library_euclid'
