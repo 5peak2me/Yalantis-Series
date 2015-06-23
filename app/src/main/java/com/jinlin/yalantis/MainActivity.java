@@ -10,7 +10,10 @@ import android.view.View;
 import com.yalantis.contextmenu.sample.ContextMenuActivity;
 import com.yalantis.euclid.sample.EuclidActivity;
 import com.yalantis.flipviewpager.sample.activity.FriendsActivity;
+import com.yalantis.guillotine.sample.activity.GuillotineMenuActivity;
+import com.yalantis.phoenix.sample.PhoenixPullToRefreshActivity;
 import com.yalantis.sidemenu.sample.SideActivity;
+import com.yalantis.taurus.sanple.TaurusPullToRefreshActivity;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -45,11 +48,11 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void click1(View view) {
-        startActivity(new Intent(this, PullToRefreshActivity.class));
+        startActivity(new Intent(this, PhoenixPullToRefreshActivity.class));
     }
 
     public void click2(View view) {
-        startActivity(new Intent(this, PullToRefreshActivity2.class));
+        startActivity(new Intent(this, TaurusPullToRefreshActivity.class));
     }
 
     public void click3(View view) {
@@ -66,5 +69,9 @@ public class MainActivity extends ActionBarActivity {
 
     public void click6(View view) {
         startActivity(new Intent(this, EuclidActivity.class));
+    }
+
+    public void click7(View view) {
+        startActivity(new Intent(this, GuillotineMenuActivity.class));
     }
 }

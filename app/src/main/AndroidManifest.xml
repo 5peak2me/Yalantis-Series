@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".PullToRefreshActivity"/>
-        <activity android:name=".PullToRefreshActivity2"/>
+        <activity android:name="com.yalantis.phoenix.sample.PhoenixPullToRefreshActivity"/>
+        <activity android:name="com.yalantis.taurus.sanple.TaurusPullToRefreshActivity"/>
         <activity android:name="com.yalantis.flipviewpager.sample.activity.FriendsActivity"/>
         <activity
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
@@ -27,6 +27,9 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name="com.yalantis.contextmenu.sample.ContextMenuActivity"/>
         <activity android:name="com.yalantis.euclid.sample.EuclidActivity"/>
+        <activity
+            android:theme="@style/GuillotineAppTheme"
+            android:name="com.yalantis.guillotine.sample.activity.GuillotineMenuActivity"/>
     </application>
 
 </manifest>

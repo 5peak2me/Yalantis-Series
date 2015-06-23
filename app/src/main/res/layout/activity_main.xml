@@ -45,4 +45,9 @@
         android:layout_height="wrap_content"
         android:text="Yalantis系列之EUCLID" />
 
+    <Button
+        android:onClick="click7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yalantis系列之GuillotineMenu" />
 </LinearLayout>
